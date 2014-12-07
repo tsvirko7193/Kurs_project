@@ -1,0 +1,16 @@
+webdriver\BrowserFactory.class
+webdriver\Browser$1.class
+webdriver\Browser.class
+webdriver\elements\BaseElement.class
+webdriver\elements\Label.class
+webdriver\PropertiesResourceManager.class
+webdriver\Logger.class
+webdriver\BaseTest.class
+webdriver\Browser$Browsers.class
+webdriver\elements\TextBox.class
+webdriver\BaseEntity.class
+webdriver\elements\Button.class
+webdriver\BaseForm.class
+webdriver\Logger$Locale.class
+webdriver\elements\BaseElement$1.class
+webdriver\BrowserFactory$1.class

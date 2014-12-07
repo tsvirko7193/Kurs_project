@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Test Plan]">
+  <parameter name="password" value="hkr789789"/>
+  <parameter name="search" value="Apple"/>
+  <parameter name="reg" value="^Apple.*"/>
+  <parameter name="reg_oper_sys" value="^Apple iOS.*"/>
+  <parameter name="login" value="tsvirko7193"/>
+  <parameter name="reg_y_e" value="^.*(y\.e\.)?$"/>
+  <parameter name="reg_samsung" value="^Samsung.*"/>
+  <test name="Functional Tests(failed)">
+    <parameter name="password" value="hkr789789"/>
+    <parameter name="search" value="Apple"/>
+    <parameter name="reg" value="^Apple.*"/>
+    <parameter name="reg_oper_sys" value="^Apple iOS.*"/>
+    <parameter name="login" value="tsvirko7193"/>
+    <parameter name="reg_y_e" value="^.*(y\.e\.)?$"/>
+    <parameter name="reg_samsung" value="^Samsung.*"/>
+    <classes>
+      <class name="demo.test.ForgottenPasswordTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="xTest"/>
+        </methods>
+      </class> <!-- demo.test.ForgottenPasswordTest -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Demo Test Plan] -->

@@ -1,0 +1,393 @@
+<html>
+<head>
+<title>TestNG:  Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 07 06:35:59 BRT 2014</td>
+</tr>
+<tr><td>Total time:</td><td>808 seconds (808330 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='demo.test.ClearParameterOfSortTest.xTest()'><b>xTest</b><br>Test class: demo.test.ClearParameterOfSortTest<br/>
+<a href="#Output-12146391" onClick='toggleBox("Output-12146391", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12146391" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12146391">
+--------------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.ClearParameterOfSortTest' =====================<br><br/>
+--------------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 2031msec<br><br/>
+Button 'Mobile button' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'MobileForm form' appears in 3043msec<br><br/>
+Button 'Producer sort button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Button 'Search button' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Form 'Catalog.onliner.by/mobile form' appears in 2140msec<br><br/>
+Button 'Clear form button' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Form 'MobileForm form' appears in 2289msec<br><br/>
+<br><br/>
+*******************************************************************<br><br/>
+***** Test case: 'demo.test.ClearParameterOfSortTest' Passed! *****<br><br/>
+*******************************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>demo.test.ClearParameterOfSortTest@1ae7dc0</td></tr>
+<tr>
+<td title='demo.test.FalseRegistrationTest.xTest()'><b>xTest</b><br>Test class: demo.test.FalseRegistrationTest<br/>
+<a href="#Output-6090461" onClick='toggleBox("Output-6090461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6090461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6090461">
+-----------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.FalseRegistrationTest' =====================<br><br/>
+-----------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 1719msec<br><br/>
+Button 'Кнопка войти' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Registration page form' appears in 25581msec<br><br/>
+Text Field 'null' :: Typing 'tsvirko7193'<br><br/>
+Button 'Enter button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'False Registration page form' appears in 781msec<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Text Field 'null' :: Typing ''<br><br/>
+Button 'Enter button' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+<br><br/>
+****************************************************************<br><br/>
+***** Test case: 'demo.test.FalseRegistrationTest' Passed! *****<br><br/>
+****************************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>demo.test.FalseRegistrationTest@15b7e8</td></tr>
+<tr>
+<td title='demo.test.ForgottenPasswordTest.xTest()'><b>xTest</b><br>Test class: demo.test.ForgottenPasswordTest<br/>
+<a href="#Output-1491114" onClick='toggleBox("Output-1491114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1491114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1491114">
+-----------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.ForgottenPasswordTest' =====================<br><br/>
+-----------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 2466msec<br><br/>
+Button 'Кнопка войти' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Registration page form' appears in 183917msec<br><br/>
+Button 'Forgotten password button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Registration page form' appears in 3259msec<br><br/>
+<br><br/>
+****************************************************************<br><br/>
+***** Test case: 'demo.test.ForgottenPasswordTest' Passed! *****<br><br/>
+****************************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>191</td>
+<td>demo.test.ForgottenPasswordTest@d2d9cb</td></tr>
+<tr>
+<td title='demo.test.OperatingSystemSortTest.xTest()'><b>xTest</b><br>Test class: demo.test.OperatingSystemSortTest<br/>
+<a href="#Output-21610595" onClick='toggleBox("Output-21610595", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21610595" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21610595">
+-------------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.OperatingSystemSortTest' =====================<br><br/>
+-------------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 1529msec<br><br/>
+Button 'Mobile button' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'MobileForm form' appears in 4527msec<br><br/>
+Button 'Operation_system sort button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Button 'Search button' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Form 'SearchAppleiOSForm form' appears in 2587msec<br><br/>
+<br><br/>
+******************************************************************<br><br/>
+***** Test case: 'demo.test.OperatingSystemSortTest' Passed! *****<br><br/>
+******************************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>demo.test.OperatingSystemSortTest@15b810e</td></tr>
+<tr>
+<td title='demo.test.ProducerSortTest.xTest()'><b>xTest</b><br>Test class: demo.test.ProducerSortTest<br/>
+<a href="#Output-14834443" onClick='toggleBox("Output-14834443", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14834443" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14834443">
+------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.ProducerSortTest' =====================<br><br/>
+------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 2732msec<br><br/>
+Button 'Mobile button' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'MobileForm form' appears in 205271msec<br><br/>
+Button 'Producer sort button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Button 'Search button' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Form 'Catalog.onliner.by/mobile form' appears in 2693msec<br><br/>
+<br><br/>
+***********************************************************<br><br/>
+***** Test case: 'demo.test.ProducerSortTest' Passed! *****<br><br/>
+***********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>216</td>
+<td>demo.test.ProducerSortTest@192827e</td></tr>
+<tr>
+<td title='demo.test.RegistrationTest.xTest()'><b>xTest</b><br>Test class: demo.test.RegistrationTest<br/>
+<a href="#Output-10574812" onClick='toggleBox("Output-10574812", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10574812" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10574812">
+------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.RegistrationTest' =====================<br><br/>
+------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 1658msec<br><br/>
+Button 'Кнопка войти' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Registration page form' appears in 3209msec<br><br/>
+Text Field 'null' :: Typing 'tsvirko7193'<br><br/>
+Text Field 'null' :: Typing 'hkr789789'<br><br/>
+Button 'Enter button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+<br><br/>
+***********************************************************<br><br/>
+***** Test case: 'demo.test.RegistrationTest' Passed! *****<br><br/>
+***********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>demo.test.RegistrationTest@12abca6</td></tr>
+<tr>
+<td title='demo.test.SearchAppleTest.xTest()'><b>xTest</b><br>Test class: demo.test.SearchAppleTest<br/>
+<a href="#Output-11984589" onClick='toggleBox("Output-11984589", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11984589" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11984589">
+-----------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.SearchAppleTest' =====================<br><br/>
+-----------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 1475msec<br><br/>
+Text Field 'Search textbox' :: Typing 'Apple'<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Enter form' appears in 205msec<br><br/>
+Button 'Find button' :: Clicking<br><br/>
+Button 'Find button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'SearchResult form' appears in 20267msec<br><br/>
+<br><br/>
+**********************************************************<br><br/>
+***** Test case: 'demo.test.SearchAppleTest' Passed! *****<br><br/>
+**********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>demo.test.SearchAppleTest@695725</td></tr>
+<tr>
+<td title='demo.test.SortOfGoodsTest.xTest()'><b>xTest</b><br>Test class: demo.test.SortOfGoodsTest<br/>
+<a href="#Output-18213909" onClick='toggleBox("Output-18213909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18213909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18213909">
+-----------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.SortOfGoodsTest' =====================<br><br/>
+-----------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 2244msec<br><br/>
+Button 'Mobile button' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'MobileForm form' appears in 4194msec<br><br/>
+Button 'Sort by price button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Catalog.onliner.by/mobile form' appears in 1502msec<br><br/>
+<br><br/>
+**********************************************************<br><br/>
+***** Test case: 'demo.test.SortOfGoodsTest' Passed! *****<br><br/>
+**********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>demo.test.SortOfGoodsTest@1dac38f</td></tr>
+<tr>
+<td title='demo.test.SwitchCurrencyTest.xTest()'><b>xTest</b><br>Test class: demo.test.SwitchCurrencyTest<br/>
+<a href="#Output-28731843" onClick='toggleBox("Output-28731843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28731843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28731843">
+--------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.SwitchCurrencyTest' =====================<br><br/>
+--------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 2328msec<br><br/>
+Button 'Mobile button' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'MobileForm form' appears in 4632msec<br><br/>
+Button 'Y.e button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'CurrencyResultForm form' appears in 260msec<br><br/>
+<br><br/>
+*************************************************************<br><br/>
+***** Test case: 'demo.test.SwitchCurrencyTest' Passed! *****<br><br/>
+*************************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>demo.test.SwitchCurrencyTest@12b503c</td></tr>
+<tr>
+<td title='demo.test.TabTest.xTest()'><b>xTest</b><br>Test class: demo.test.TabTest<br/>
+<a href="#Output-22301414" onClick='toggleBox("Output-22301414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22301414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22301414">
+---------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'demo.test.TabTest' =====================<br><br/>
+---------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'onliner.by form' appears in 3216msec<br><br/>
+Button 'Кнопка войти' :: Clicking<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Registration page form' appears in 5597msec<br><br/>
+Text Field 'null' :: Typing 'tsvirko7193'<br><br/>
+Text Field 'null' :: Typing 'hkr789789'<br><br/>
+Button 'Enter button' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Button 'Mobile button' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Form 'MobileForm form' appears in 5205msec<br><br/>
+Button 'Tab button' :: Clicking<br><br/>
+--------==[ Step 5 ]==--------<br><br/>
+Form 'Catalog.onliner.by/mobile form' appears in 8240msec<br><br/>
+Button 'Кнопка Добавить в закладки' :: Clicking<br><br/>
+--------==[ Step 6 ]==--------<br><br/>
+Button 'Кнопка Закладки' :: Clicking<br><br/>
+--------==[ Step 7 ]==--------<br><br/>
+Form 'Catalog.onliner.by/mobile form' appears in 3516msec<br><br/>
+Button 'Кнопка Каталог' :: Clicking<br><br/>
+--------==[ Step 8 ]==--------<br><br/>
+Form 'Catalog.onliner.by/mobile form' appears in 17143msec<br><br/>
+--------==[ Step 9 ]==--------<br><br/>
+Button 'Кнопка Выбрать все' :: Clicking<br><br/>
+Button 'Кнопка Удалить закладку' :: Clicking<br><br/>
+<br><br/>
+**************************************************<br><br/>
+***** Test case: 'demo.test.TabTest' Passed! *****<br><br/>
+**************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>demo.test.TabTest@9da20d</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Test Plan" verbose="1">
+
+	<test name="Functional Tests" preserve-order="true">
+		<parameter name="login" value="tsvirko7193" />
+		<parameter name="password" value="hkr789789" />
+		<parameter name="search" value="Apple" />
+		<parameter name="reg_oper_sys" value="^Apple iOS.*" />
+		<parameter name="reg" value="^Apple.*" />
+		<parameter name="reg_samsung" value="^Samsung.*" />
+		<parameter name="reg_y_e" value="^.*(y\.e\.)?$" />
+		<classes>
+		
+			<class name="demo.test.ClearParameterOfSortTest" />
+			<class name="demo.test.FalseRegistrationTest" />
+			<class name="demo.test.ForgottenPasswordTest" />
+			<class name="demo.test.OperatingSystemSortTest" />
+			<class name="demo.test.ProducerSortTest" />
+			<class name="demo.test.RegistrationTest" />
+			<class name="demo.test.SearchAppleTest" />
+			<class name="demo.test.SortOfGoodsTest" />
+			<class name="demo.test.SwitchCurrencyTest" />
+			<class name="demo.test.TabTest" />
+
+		</classes>
+	</test>
+</suite>

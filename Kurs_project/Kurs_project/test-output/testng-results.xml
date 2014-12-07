@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.ClearParameterOfSortTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 2031msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 3043msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Producer sort button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 2140msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Clear form button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 2289msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*******************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.ClearParameterOfSortTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*******************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.FalseRegistrationTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 1719msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Registration page form' appears in 25581msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'tsvirko7193'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'False Registration page form' appears in 781msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing ''<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.FalseRegistrationTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.ForgottenPasswordTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 2466msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Registration page form' appears in 183917msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Forgotten password button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Registration page form' appears in 3259msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.ForgottenPasswordTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.OperatingSystemSortTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 1529msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 4527msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Operation_system sort button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'SearchAppleiOSForm form' appears in 2587msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.OperatingSystemSortTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.ProducerSortTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 2732msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 205271msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Producer sort button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 2693msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.ProducerSortTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.RegistrationTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 1658msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Registration page form' appears in 3209msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'tsvirko7193'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'hkr789789'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.RegistrationTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.SearchAppleTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 1475msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'Search textbox' :: Typing 'Apple'<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Enter form' appears in 205msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Find button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Find button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'SearchResult form' appears in 20267msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.SearchAppleTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.SortOfGoodsTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 2244msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 4194msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sort by price button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 1502msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.SortOfGoodsTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.SwitchCurrencyTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 2328msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 4632msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Y.e button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'CurrencyResultForm form' appears in 260msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.SwitchCurrencyTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'demo.test.TabTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'onliner.by form' appears in 3216msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Registration page form' appears in 5597msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'tsvirko7193'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'hkr789789'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'MobileForm form' appears in 5205msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Tab button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 8240msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка Добавить в закладки' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка Закладки' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 3516msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка Каталог' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 8 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 17143msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 9 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка Выбрать все' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Кнопка Удалить закладку' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'demo.test.TabTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo Test Plan" duration-ms="808330" started-at="2014-12-07T09:35:59Z" finished-at="2014-12-07T09:49:27Z">
+    <groups>
+    </groups>
+    <test name="Functional Tests" duration-ms="808330" started-at="2014-12-07T09:35:59Z" finished-at="2014-12-07T09:49:27Z">
+      <class name="demo.test.TabTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.TabTest@9da20d]" name="before" is-config="true" duration-ms="21802" started-at="2014-12-07T06:48:07Z" finished-at="2014-12-07T06:48:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.TabTest@9da20d]" name="xTest" duration-ms="57890" started-at="2014-12-07T06:48:29Z" finished-at="2014-12-07T06:49:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.TabTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 3216msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Registration page form' appears in 5597msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'tsvirko7193'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'hkr789789'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 5205msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Tab button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 8240msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка Добавить в закладки' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка Закладки' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 3516msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка Каталог' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 8 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 17143msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 9 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка Выбрать все' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка Удалить закладку' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.TabTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.TabTest@9da20d]" name="after" is-config="true" duration-ms="463" started-at="2014-12-07T06:49:27Z" finished-at="2014-12-07T06:49:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.TabTest -->
+      <class name="demo.test.SearchAppleTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.SearchAppleTest@695725]" name="before" is-config="true" duration-ms="31784" started-at="2014-12-07T06:46:01Z" finished-at="2014-12-07T06:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.SearchAppleTest@695725]" name="xTest" duration-ms="25898" started-at="2014-12-07T06:46:33Z" finished-at="2014-12-07T06:46:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.SearchAppleTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 1475msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'Search textbox' :: Typing 'Apple'<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Enter form' appears in 205msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'SearchResult form' appears in 20267msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.SearchAppleTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.SearchAppleTest@695725]" name="after" is-config="true" duration-ms="482" started-at="2014-12-07T06:46:59Z" finished-at="2014-12-07T06:47:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.SearchAppleTest -->
+      <class name="demo.test.ForgottenPasswordTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.ForgottenPasswordTest@d2d9cb]" name="before" is-config="true" duration-ms="29787" started-at="2014-12-07T06:37:07Z" finished-at="2014-12-07T06:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.ForgottenPasswordTest@d2d9cb]" name="xTest" duration-ms="191923" started-at="2014-12-07T06:37:36Z" finished-at="2014-12-07T06:40:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.ForgottenPasswordTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 2466msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Registration page form' appears in 183917msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Forgotten password button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Registration page form' appears in 3259msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.ForgottenPasswordTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.ForgottenPasswordTest@d2d9cb]" name="after" is-config="true" duration-ms="468" started-at="2014-12-07T06:40:48Z" finished-at="2014-12-07T06:40:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.ForgottenPasswordTest -->
+      <class name="demo.test.ClearParameterOfSortTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.ClearParameterOfSortTest@1ae7dc0]" name="before" is-config="true" duration-ms="221" started-at="2014-12-07T06:35:59Z" finished-at="2014-12-07T06:35:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.ClearParameterOfSortTest@1ae7dc0]" name="xTest" duration-ms="18107" started-at="2014-12-07T06:35:59Z" finished-at="2014-12-07T06:36:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.ClearParameterOfSortTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 2031msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 3043msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Producer sort button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 2140msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Clear form button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 2289msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.ClearParameterOfSortTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.ClearParameterOfSortTest@1ae7dc0]" name="after" is-config="true" duration-ms="476" started-at="2014-12-07T06:36:17Z" finished-at="2014-12-07T06:36:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.ClearParameterOfSortTest -->
+      <class name="demo.test.SortOfGoodsTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.SortOfGoodsTest@1dac38f]" name="before" is-config="true" duration-ms="21498" started-at="2014-12-07T06:47:00Z" finished-at="2014-12-07T06:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.SortOfGoodsTest@1dac38f]" name="xTest" duration-ms="13813" started-at="2014-12-07T06:47:21Z" finished-at="2014-12-07T06:47:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.SortOfGoodsTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 2244msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 4194msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sort by price button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 1502msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.SortOfGoodsTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.SortOfGoodsTest@1dac38f]" name="after" is-config="true" duration-ms="597" started-at="2014-12-07T06:47:35Z" finished-at="2014-12-07T06:47:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.SortOfGoodsTest -->
+      <class name="demo.test.SwitchCurrencyTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.SwitchCurrencyTest@12b503c]" name="before" is-config="true" duration-ms="19465" started-at="2014-12-07T06:47:35Z" finished-at="2014-12-07T06:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.SwitchCurrencyTest@12b503c]" name="xTest" duration-ms="11361" started-at="2014-12-07T06:47:55Z" finished-at="2014-12-07T06:48:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.SwitchCurrencyTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 2328msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 4632msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Y.e button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'CurrencyResultForm form' appears in 260msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.SwitchCurrencyTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.SwitchCurrencyTest@12b503c]" name="after" is-config="true" duration-ms="627" started-at="2014-12-07T06:48:06Z" finished-at="2014-12-07T06:48:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.SwitchCurrencyTest -->
+      <class name="demo.test.ProducerSortTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.ProducerSortTest@192827e]" name="before" is-config="true" duration-ms="16084" started-at="2014-12-07T06:41:39Z" finished-at="2014-12-07T06:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.ProducerSortTest@192827e]" name="xTest" duration-ms="216307" started-at="2014-12-07T06:41:55Z" finished-at="2014-12-07T06:45:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.ProducerSortTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 2732msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 205271msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Producer sort button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog.onliner.by/mobile form' appears in 2693msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.ProducerSortTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.ProducerSortTest@192827e]" name="after" is-config="true" duration-ms="896" started-at="2014-12-07T06:45:31Z" finished-at="2014-12-07T06:45:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.ProducerSortTest -->
+      <class name="demo.test.FalseRegistrationTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.FalseRegistrationTest@15b7e8]" name="before" is-config="true" duration-ms="16176" started-at="2014-12-07T06:36:18Z" finished-at="2014-12-07T06:36:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.FalseRegistrationTest@15b7e8]" name="xTest" duration-ms="32748" started-at="2014-12-07T06:36:34Z" finished-at="2014-12-07T06:37:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.FalseRegistrationTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 1719msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Registration page form' appears in 25581msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'tsvirko7193'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'False Registration page form' appears in 781msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing ''<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.FalseRegistrationTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.FalseRegistrationTest@15b7e8]" name="after" is-config="true" duration-ms="266" started-at="2014-12-07T06:37:06Z" finished-at="2014-12-07T06:37:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.FalseRegistrationTest -->
+      <class name="demo.test.OperatingSystemSortTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.OperatingSystemSortTest@15b810e]" name="before" is-config="true" duration-ms="33705" started-at="2014-12-07T06:40:49Z" finished-at="2014-12-07T06:41:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.OperatingSystemSortTest@15b810e]" name="xTest" duration-ms="15198" started-at="2014-12-07T06:41:23Z" finished-at="2014-12-07T06:41:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.OperatingSystemSortTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 1529msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Mobile button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'MobileForm form' appears in 4527msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Operation_system sort button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'SearchAppleiOSForm form' appears in 2587msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.OperatingSystemSortTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.OperatingSystemSortTest@15b810e]" name="after" is-config="true" duration-ms="792" started-at="2014-12-07T06:41:38Z" finished-at="2014-12-07T06:41:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.OperatingSystemSortTest -->
+      <class name="demo.test.RegistrationTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.RegistrationTest@12abca6]" name="before" is-config="true" duration-ms="17212" started-at="2014-12-07T06:45:32Z" finished-at="2014-12-07T06:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@182cc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.RegistrationTest@12abca6]" name="xTest" duration-ms="11941" started-at="2014-12-07T06:45:49Z" finished-at="2014-12-07T06:46:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'demo.test.RegistrationTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'onliner.by form' appears in 1658msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Кнопка войти' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Registration page form' appears in 3209msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'tsvirko7193'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'hkr789789'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Enter button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'demo.test.RegistrationTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.RegistrationTest@12abca6]" name="after" is-config="true" duration-ms="323" started-at="2014-12-07T06:46:01Z" finished-at="2014-12-07T06:46:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.test.RegistrationTest -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- Demo Test Plan -->
+</testng-results>

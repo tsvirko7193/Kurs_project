@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Demo_Test_Plan">
+              <span class="suite-name border-passed">Demo Test Plan</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Demo_Test_Plan">
+                    <span>D:\ITRANSITION\Курсовой проект\miniSMART_Java\WebDriver\src\test\resources\TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Demo_Test_Plan">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Demo_Test_Plan">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Demo_Test_Plan">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Demo_Test_Plan">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo_Test_Plan">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Demo_Test_Plan">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Demo_Test_Plan" class="hide-methods passed suite-Demo_Test_Plan"> (hide)</a> <!-- hide-methods passed suite-Demo_Test_Plan -->
+                      <a href="#" panel-name="suite-Demo_Test_Plan" class="show-methods passed suite-Demo_Test_Plan"> (show)</a> <!-- show-methods passed suite-Demo_Test_Plan -->
+                    </span>
+                    <div class="method-list-content passed suite-Demo_Test_Plan">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.SortOfGoodsTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.FalseRegistrationTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.TabTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.SwitchCurrencyTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.ProducerSortTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.OperatingSystemSortTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.SearchAppleTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.ForgottenPasswordTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.RegistrationTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.ClearParameterOfSortTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Demo_Test_Plan -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demo_Test_Plan" class="panel Demo_Test_Plan">
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.SwitchCurrencyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.SearchAppleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.ClearParameterOfSortTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.TabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.FalseRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.ProducerSortTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.ForgottenPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.OperatingSystemSortTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.test.SortOfGoodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+        </div> <!-- panel Demo_Test_Plan -->
+        <div panel-name="test-xml-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\ITRANSITION\Курсовой проект\miniSMART_Java\WebDriver\src\test\resources\TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Demo Test Plan&quot;&gt;
+  &lt;test name=&quot;Functional Tests&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;hkr789789&quot;/&gt;
+    &lt;parameter name=&quot;search&quot; value=&quot;Apple&quot;/&gt;
+    &lt;parameter name=&quot;reg&quot; value=&quot;^Apple.*&quot;/&gt;
+    &lt;parameter name=&quot;reg_oper_sys&quot; value=&quot;^Apple iOS.*&quot;/&gt;
+    &lt;parameter name=&quot;login&quot; value=&quot;tsvirko7193&quot;/&gt;
+    &lt;parameter name=&quot;reg_y_e&quot; value=&quot;^.*(y\.e\.)?$&quot;/&gt;
+    &lt;parameter name=&quot;reg_samsung&quot; value=&quot;^Samsung.*&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;demo.test.ClearParameterOfSortTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.FalseRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.ForgottenPasswordTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.OperatingSystemSortTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.ProducerSortTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.SearchAppleTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.SortOfGoodsTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.SwitchCurrencyTest&quot;/&gt;
+      &lt;class name=&quot;demo.test.TabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional Tests --&gt;
+&lt;/suite&gt; &lt;!-- Demo Test Plan --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demo Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Functional Tests (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demo Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demo Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demo_Test_Plan');
+function tableData_Demo_Test_Plan() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'xTest')
+data.setCell(0, 2, 'demo.test.ProducerSortTest')
+data.setCell(0, 3, 216307);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'xTest')
+data.setCell(1, 2, 'demo.test.ForgottenPasswordTest')
+data.setCell(1, 3, 191923);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'xTest')
+data.setCell(2, 2, 'demo.test.TabTest')
+data.setCell(2, 3, 57890);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'xTest')
+data.setCell(3, 2, 'demo.test.FalseRegistrationTest')
+data.setCell(3, 3, 32748);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'xTest')
+data.setCell(4, 2, 'demo.test.SearchAppleTest')
+data.setCell(4, 3, 25898);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'xTest')
+data.setCell(5, 2, 'demo.test.ClearParameterOfSortTest')
+data.setCell(5, 3, 18107);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'xTest')
+data.setCell(6, 2, 'demo.test.OperatingSystemSortTest')
+data.setCell(6, 3, 15198);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'xTest')
+data.setCell(7, 2, 'demo.test.SortOfGoodsTest')
+data.setCell(7, 3, 13813);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'xTest')
+data.setCell(8, 2, 'demo.test.RegistrationTest')
+data.setCell(8, 3, 11941);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'xTest')
+data.setCell(9, 2, 'demo.test.SwitchCurrencyTest')
+data.setCell(9, 3, 11361);
+window.suiteTableData['Demo_Test_Plan']= { tableData: data, tableDiv: 'times-div-Demo_Test_Plan'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Demo_Test_Plan">
+              </div> <!-- times-div-Demo_Test_Plan -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demo Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.SortOfGoodsTest' =====================<br></span>
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 2244msec<br></span>
+                <span class="reporter-method-output">Button 'Mobile button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 4194msec<br></span>
+                <span class="reporter-method-output">Button 'Sort by price button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Catalog.onliner.by/mobile form' appears in 1502msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**********************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.SortOfGoodsTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**********************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.FalseRegistrationTest' =====================<br></span>
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 1719msec<br></span>
+                <span class="reporter-method-output">Button 'Кнопка войти' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Registration page form' appears in 25581msec<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'tsvirko7193'<br></span>
+                <span class="reporter-method-output">Button 'Enter button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'False Registration page form' appears in 781msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing ''<br></span>
+                <span class="reporter-method-output">Button 'Enter button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">****************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.FalseRegistrationTest' Passed! *****<br></span>
+                <span class="reporter-method-output">****************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.TabTest' =====================<br></span>
+                <span class="reporter-method-output">---------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 3216msec<br></span>
+                <span class="reporter-method-output">Button 'Кнопка войти' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Registration page form' appears in 5597msec<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'tsvirko7193'<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'hkr789789'<br></span>
+                <span class="reporter-method-output">Button 'Enter button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Mobile button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 5205msec<br></span>
+                <span class="reporter-method-output">Button 'Tab button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Catalog.onliner.by/mobile form' appears in 8240msec<br></span>
+                <span class="reporter-method-output">Button 'Кнопка Добавить в закладки' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Кнопка Закладки' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Catalog.onliner.by/mobile form' appears in 3516msec<br></span>
+                <span class="reporter-method-output">Button 'Кнопка Каталог' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Catalog.onliner.by/mobile form' appears in 17143msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Кнопка Выбрать все' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'Кнопка Удалить закладку' :: Clicking<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.TabTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.SwitchCurrencyTest' =====================<br></span>
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 2328msec<br></span>
+                <span class="reporter-method-output">Button 'Mobile button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 4632msec<br></span>
+                <span class="reporter-method-output">Button 'Y.e button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'CurrencyResultForm form' appears in 260msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">*************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.SwitchCurrencyTest' Passed! *****<br></span>
+                <span class="reporter-method-output">*************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.ProducerSortTest' =====================<br></span>
+                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 2732msec<br></span>
+                <span class="reporter-method-output">Button 'Mobile button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 205271msec<br></span>
+                <span class="reporter-method-output">Button 'Producer sort button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Catalog.onliner.by/mobile form' appears in 2693msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">***********************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.ProducerSortTest' Passed! *****<br></span>
+                <span class="reporter-method-output">***********************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.OperatingSystemSortTest' =====================<br></span>
+                <span class="reporter-method-output">-------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 1529msec<br></span>
+                <span class="reporter-method-output">Button 'Mobile button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 4527msec<br></span>
+                <span class="reporter-method-output">Button 'Operation_system sort button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'SearchAppleiOSForm form' appears in 2587msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">******************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.OperatingSystemSortTest' Passed! *****<br></span>
+                <span class="reporter-method-output">******************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.SearchAppleTest' =====================<br></span>
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 1475msec<br></span>
+                <span class="reporter-method-output">Text Field 'Search textbox' :: Typing 'Apple'<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Enter form' appears in 205msec<br></span>
+                <span class="reporter-method-output">Button 'Find button' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'Find button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'SearchResult form' appears in 20267msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**********************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.SearchAppleTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**********************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.ForgottenPasswordTest' =====================<br></span>
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 2466msec<br></span>
+                <span class="reporter-method-output">Button 'Кнопка войти' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Registration page form' appears in 183917msec<br></span>
+                <span class="reporter-method-output">Button 'Forgotten password button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Registration page form' appears in 3259msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">****************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.ForgottenPasswordTest' Passed! *****<br></span>
+                <span class="reporter-method-output">****************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.RegistrationTest' =====================<br></span>
+                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 1658msec<br></span>
+                <span class="reporter-method-output">Button 'Кнопка войти' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Registration page form' appears in 3209msec<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'tsvirko7193'<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'hkr789789'<br></span>
+                <span class="reporter-method-output">Button 'Enter button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">***********************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.RegistrationTest' Passed! *****<br></span>
+                <span class="reporter-method-output">***********************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'demo.test.ClearParameterOfSortTest' =====================<br></span>
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'onliner.by form' appears in 2031msec<br></span>
+                <span class="reporter-method-output">Button 'Mobile button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 3043msec<br></span>
+                <span class="reporter-method-output">Button 'Producer sort button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Catalog.onliner.by/mobile form' appears in 2140msec<br></span>
+                <span class="reporter-method-output">Button 'Clear form button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'MobileForm form' appears in 2289msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">*******************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.ClearParameterOfSortTest' Passed! *****<br></span>
+                <span class="reporter-method-output">*******************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demo_Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.ClearParameterOfSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">18330 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.FalseRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">18806 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">34982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">67730 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.ForgottenPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">67996 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">97783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">289706 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.OperatingSystemSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">290174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">323879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">339078 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.ProducerSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">339871 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">355955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">572262 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">573158 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">590371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">602313 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.SearchAppleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">602636 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">634420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">660318 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.SortOfGoodsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">660800 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">682299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">696112 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.SwitchCurrencyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">696710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">716176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">727539 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.test.TabTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@182cc36)</span>
+                <span class="method-start">728166 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">749968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">807858 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
